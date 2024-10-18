@@ -44,7 +44,6 @@ def huggingface_query(filename, url):
     	"Authorization": "Bearer {}".format(HUGGINGFACE_TOKEN),
     	"Content-Type": "audio/flac" 
     }
-    st.write(headers)
     response = requests.post(url, headers=headers, data=data)
     return response.json()
 
