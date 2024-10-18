@@ -1,0 +1,9 @@
+streamlit
+pyannote.audio
+torch
+pandas
+pydub
+pathlib
+transformers
+audio-recorder-streamlit
+watchdog
