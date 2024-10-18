@@ -64,7 +64,7 @@ with c2:
     if upload_option == "Record Audio":
         audio_bytes = audio_recorder(pause_threshold=10.0, text="Click Mic Start/Stop Record", icon_size="4x")
     else:
-        audio_bytes = st.file_uploader("Upload an audio file", type=["mp3", "wav"])
+        audio_bytes = st.file_uploader("Upload an audio file", type=["wav"])
 
 
 markdown()
